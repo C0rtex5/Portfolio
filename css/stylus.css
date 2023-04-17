@@ -13,7 +13,7 @@ html{
     padding: 0 80px;
     margin: auto;
 }
-/*navbar inicio*/
+/*navbar begin*/
 .navbar{
     position: fixed;
     background-color: hsl(0, 0%, 0%);
@@ -118,7 +118,7 @@ image{
     background: none;
 }
 
-/*  Menu  Mobile  */
+/*Mobile*/
 .menu-btn{
     color: hsl(0, 0%, 100%);
     font-size: 26px;
@@ -150,7 +150,7 @@ image{
     
 }
 
-/*  todos os codigos similares  */
+/*all misc codes*/
 section{
     padding: 100px 0;
 }
@@ -196,7 +196,7 @@ section .title::after{
     justify-content: space-between;
 }
 
-/* Description */
+/*Description*/
 .about .about-content .left{
     width: 45%;
 }
@@ -236,7 +236,7 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
-/*  Services */
+/*Services*/
 .services, .teams{
     background: hsl(0, 0%, 7%);
     color: hsl(0, 0%, 100%);
@@ -272,7 +272,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-/*  sessão especialidades  */
+/*specilaizations*/
 .skills .title::after{
     content: "Que faço";
 }
@@ -344,67 +344,7 @@ section .title::after{
 .skills .skills-content .right .mysql::before{
     width: 42%;
 }
-/*  sessão equipe  */
-.teams .title::after{
-    content: "Especializada";
-}
-.teams .carousel .card{
-    background: hsl(0, 0%, 13%);
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover{
-    background: hsl(197, 98%, 52%);
-}
-.teams .carousel .card img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid hsl;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img{
-    border-color: hsl(0, 0%, 100%);
-}
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    width: 14px;
-    height: 14px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid hsl(197, 98%, 52%)!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 15px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: hsl(197, 98%, 52%)!important;
-}
-/*  sessão Contato  */
+/*contact*/
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -495,7 +435,7 @@ section .title::after{
     background: none;
 }
 
-/*  sessão footer  */
+/*footer*/
 footer{
     background: hsl(0, 0%, 7%);
     padding: 20px 23px;
@@ -511,7 +451,7 @@ footer span a:hover{
 }
 
 
-/* ======================================= responsivo ============================ */
+/* ======================================= responsive ============================ */
 @media (max-width: 13000px){
     .navbar .max-width{
         margin-left: 0;
