@@ -62,7 +62,7 @@ html{
 .navbar.sticky .menu li a:hover{
     color: hsl(0, 0%, 100%);
 }
-/*responsivity*/
+/*=============================== responsivity ===============================*/
 main {
     min-width: 320px;
     max-width: 800px;
@@ -184,19 +184,9 @@ section .title::after{
     transform: translateX(-50%);
 }
 /*=============================== about ===============================*/
-.about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Roboto', sans-serif;
+.image{
+    background-image: url(/img/Hun!.jpg);
 }
-.about .about-content,
-.services .serv-content,
-.skills .skills-content,
-.contact .contact-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
 /*=============================== Description ===============================*/
 .about .about-content .left{
     width: 45%;
