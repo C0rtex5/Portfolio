@@ -13,7 +13,7 @@ html{
     padding: 0 80px;
     margin: auto;
 }
-/*navbar begin*/
+/*=============================== navbar begin ===============================*/
 .navbar{
     position: fixed;
     background-color: hsl(0, 0%, 0%);
@@ -71,7 +71,7 @@ main {
 image{
     width: 100%;
 }
-/*Home*/
+/*=============================== Home ===============================*/
 .home{
     display: flex;
     
@@ -118,7 +118,7 @@ image{
     background: none;
 }
 
-/*Mobile*/
+/*=============================== Mobile ===============================*/
 .menu-btn{
     color: hsl(0, 0%, 100%);
     font-size: 26px;
@@ -150,12 +150,12 @@ image{
     
 }
 
-/*all misc codes*/
+/*=============================== all misc codes ===============================*/
 section{
     padding: 100px 0;
 }
 section .title{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
@@ -183,7 +183,7 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
-/*about*/
+/*=============================== about ===============================*/
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Roboto', sans-serif;
 }
@@ -196,6 +196,8 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+
+/*=============================== Description ===============================*/
 .about .about-content .left{
     width: 45%;
 }
@@ -215,11 +217,8 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background-image: url('/img/network.webp');
-    background-size: cover;
-    background-position: center;
-    background: hsl(0, 0%, 0%);
-
+    background: hsl(197, 98%, 52%);
+    color: hsl(0, 0%, 100%);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -274,7 +273,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-/*specilaizations*/
+/*=============================== specilaizations ===============================*/
+.skills .title::after{
+    content: "Que faço";
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
@@ -343,7 +345,7 @@ section .title::after{
 .skills .skills-content .right .mysql::before{
     width: 42%;
 }
-/*contact*/
+/*=============================== contact ===============================*/
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -434,7 +436,7 @@ section .title::after{
     background: none;
 }
 
-/*footer*/
+/*=============================== footer ===============================*/
 footer{
     background: hsl(0, 0%, 7%);
     padding: 20px 23px;
@@ -554,7 +556,7 @@ footer span a:hover{
         font-size: 27px;
     }
 }
-/* sitre responssivo*/
+/*=============================== responsive syle ===============================*/
 @media (max-width: 991px) {
     html {
       font-size: 55%;
