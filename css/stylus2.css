@@ -1,0 +1,6 @@
+css
+body {
+  background-image: url('caminho/para/sua/imagem.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
