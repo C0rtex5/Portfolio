@@ -176,8 +176,7 @@ section .title::after{
 }
 /*=============================== about ===============================*/
 .about{
-    background-image: url();
-    background-color: hsl(0, 0%, 0%);
+    background-image: url(/img/hexagons-2012_abstract_design_Selected_Wallpaper_1680x1050.jpg);
 }
 .img{
     border-radius: 8px;
@@ -228,7 +227,9 @@ section .title::after{
     border-radius: 6px;
 }
 /*=============================== History ===============================*/
-
+.history{
+    background-color: hsl(0, 0%, 0%);
+}
 /*=============================== Services ===============================*/
 .services, .teams{
     background: hsl(0, 0%, 7%);
