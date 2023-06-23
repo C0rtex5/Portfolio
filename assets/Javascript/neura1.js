@@ -10,11 +10,7 @@ let letterIndex = 0;
   }
 }
  function getRandomColor() {
-  let letters = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+  let colors = ['#00FFFF', '#0000FF'];
+  return colors[Math.floor(Math.random() * colors.length)];
 }
  typeWriter();

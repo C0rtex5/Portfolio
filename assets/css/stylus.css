@@ -1,45 +1,14 @@
-/* background */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: montserrat;
-    background-image: url(/assets/img/wallhaven-g75m8e.jpg);
-    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* navigation */
 
-nav{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 45px;
-	padding-left: 8%;
-	padding-right: 8%;
-}
-.logo{
-	color: white;
-	font-size: 35px;
-	letter-spacing: 1px;
-	cursor: pointer;
-}
-span{
-	color: #f9004d;
-}
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 10px  25px;
-}
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: capitalize;
-}
-nav ul li a:hover{
-	color: #f9004d;
-	transition: .4s;
+
 
 /* Home */
 
