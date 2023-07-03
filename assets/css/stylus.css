@@ -95,7 +95,10 @@ nav ul li a:hover::after{
 }
 /* ======================== about ======================== */
 
-
+#about{
+  padding: 80%;
+  color: black;
+}
 
 /* History */
 
