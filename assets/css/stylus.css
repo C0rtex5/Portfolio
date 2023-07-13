@@ -99,6 +99,11 @@ nav ul li a:hover::after{
   padding: 80%;
   color: black;
 }
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 /* History */
 
