@@ -160,8 +160,9 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-  color: hsla(152, 100%, 50%, 0.918);
-  font-size: 14px;
+  color: hsl(184, 100%, 59%);
+  font-size: 18px;
+  font-weight: 500;
 }
 /* History */
 
