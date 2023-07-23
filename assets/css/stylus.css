@@ -165,6 +165,15 @@ nav ul li a:hover::after{
   font-weight: 500;
 }
 
+.tab-contents{
+  display: none;
+}
+
+.tab-contents.active-tab{
+  display: block;
+  
+}
+
 /* History */
 
 

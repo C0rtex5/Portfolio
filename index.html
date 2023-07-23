@@ -50,11 +50,11 @@
                As I improve myself to enhance my artistic skills, I am also committed to learning how to code to enhance my workflow and become more self-sufficient in my career. 
                I am excited to apply my technical and creative talents to a programming role and contribute to a dynamic team if needed.</p>
                <div class="tab-titles">
-                <p class="tab-links active-link">Skills</p>
-                <p class="tab-links">History</p>
-                <p class="tab-links">Values</p>
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('history')">History</p>
+                <p class="tab-links" onclick="opentab('values')">Values</p>
                </div>
-               <div class="tab-contents">
+               <div class="tab-contents active-tab" id="skills">
                 <ul>
                     <li><span>3D Modeler & Sculpter</span><br>I am constantly working on improving my 3D models to achieve my goals and objectives. With each iteration, I strive to create more realistic and visually stunning designs that meet the needs of my clients and exceed their expectations.</li>
                     <li><span>2D texture Painter & Casual 2D artist</span><br>I am a 2D texture painter and casual 2D artist. 
@@ -64,7 +64,7 @@
                 </ul>
                </div>
 
-               <div class="tab-contents">
+               <div class="tab-contents" id="history">
                 <ul>
                     <li><span>2021 - First solo desktop PC Assembly</span><br>
                         <p>
@@ -86,7 +86,7 @@
                 </ul>
                </div>
 
-               <div class="tab-contents">
+               <div class="tab-contents" id="values">
                 <ul>
                     <li><span>Positives 😊</span><br>
                         <p>
@@ -108,6 +108,25 @@
         </div>
     </div>
 </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName ('tab-links');
+    var tabcontents = document.getElementsByClassName ('tab-contents');
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
 
 <!-- Services -->
 
