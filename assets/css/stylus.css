@@ -113,7 +113,8 @@ nav ul li a:hover::after{
 
 .about-col-1 img{
   width: 100%;
-  border-radius: 15px;
+  border-top: 15px;
+  grid-template: none(auto-fit, minmax(250px, 1fr))
 }
 
 .card{
@@ -234,11 +235,22 @@ nav ul li a:hover::after{
 .services-list div:hover{
   background: hsl(209, 100%, 43%);
   transform: translateY(-10px);
-
 }
+
 /* History */
 
+#history{
+  padding: 50px 0;
+}
 
+.mdl-1{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
 /* Skills */
 

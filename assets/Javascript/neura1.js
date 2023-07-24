@@ -15,3 +15,5 @@ var tablinks = document.getElementsByClassName ('tab-links');
         document.getElementById(tabname).classList.add("active-tab");
     }
 
+// skills section
+
