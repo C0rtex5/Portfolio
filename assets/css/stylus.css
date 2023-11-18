@@ -78,6 +78,7 @@ nav ul li a::after{
   bottom: -6px;
   transition: 0.3s;
 }
+
 nav ul li a:hover::after{
   width: 100%;
 }
@@ -90,10 +91,6 @@ nav ul li a:hover::after{
 .header-text h1{
   font-size: 60px;
   margin-top: 20px;
-}
-
-.header-text h1 span{
-  color: hsl(194, 100%, 50%);
 }
 
 /* ======================== about ======================== */
