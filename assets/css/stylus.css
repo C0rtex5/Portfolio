@@ -24,7 +24,7 @@ body{
 }
 
 #typing-text{
-  color: hsl(285, 62%, 50%);
+  color: hsl(300, 94%, 59%);
 }
 
 /* ======================== navigation ======================== */
@@ -77,7 +77,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: hsl(285, 100%, 66%);
+  background: hsl(300, 94%, 59%);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -98,6 +98,9 @@ nav ul li a:hover::after{
   margin-top: 20px;
 }
 
+#typed{
+  
+}
 /* ======================== about ======================== */
 
 /* #about{
