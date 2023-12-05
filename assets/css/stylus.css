@@ -73,7 +73,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: hsl(300, 94%, 59%);
+  background: hsl(181, 100%, 50%);
   position: absolute;
   left: 0;
   bottom: -6px;
