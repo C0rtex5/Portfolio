@@ -14,4 +14,4 @@
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/C0rtex_5)
 [![Artstation](https://img.shields.io/badge/ArtStation-13AFF0.svg?style=for-the-badge&logo=ArtStation&logoColor=white)](https://www.artstation.com/abhay_of_shr0dinger)
-[![Artstation](https://img.shields.io/badge/DeviantArt-05CC47.svg?style=for-the-badge&logo=DeviantArt&logoColor=white)](https://www.deviantart.com/bhayz)
+[![Deviantart](https://img.shields.io/badge/DeviantArt-05CC47.svg?style=for-the-badge&logo=DeviantArt&logoColor=white)](https://www.deviantart.com/bhayz)
