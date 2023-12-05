@@ -34,6 +34,8 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0%;
 }
 
 .logo{
