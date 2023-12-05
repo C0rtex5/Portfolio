@@ -84,10 +84,6 @@ nav ul li a:hover::after{
   width: 100%;
 }
 
-nav ul li a{
-  text-transform: uppercase;
-}
-
 .header-text{
   margin-top: 20%;
   font-size: 30px;
