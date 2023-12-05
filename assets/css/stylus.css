@@ -39,13 +39,17 @@ nav{
 }
 
 .logo{
-  padding-left: 3%;
+  padding-right: 100%;
   font-size: 300%;
   width: 140px;
 }
 
+.home{
+  color: hsl(0, 0%, 100%);
+}
+
 span{
-  color: rgb(0, 251, 255);
+  color: hsl(300, 94%, 59%);
 }
 
  nav ul li{
@@ -56,7 +60,7 @@ span{
 
 .navbar{
   background-color: hsl(0, 0%, 0%);
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -75,7 +79,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: hsl(181, 100%, 50%);
+  background: hsl(300, 94%, 59%);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -96,6 +100,8 @@ nav ul li a:hover::after{
   margin-top: 20px;
 }
 
+
+
 /* ======================== home ======================== */
 
 .message{
@@ -109,7 +115,7 @@ nav ul li a:hover::after{
 }
 
 #typing-text{
-  color: hsl(300, 94%, 59%);
+  color: hsl(181, 100%, 50%)
 }
 
 /* ======================== mobile home ======================== */
