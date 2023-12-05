@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const textToType = "Human";
+  const textToType = "Cortex";
   const textElement = document.getElementById("typing-text");
   let displayedText = "";
   let index = 0;
