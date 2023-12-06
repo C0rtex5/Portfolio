@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -9,27 +9,18 @@
 
 /* ======================== body ======================== */
 
-body{
+body {
   background-color: hsl(0, 0%, 0%);
   color: hsl(0, 0%, 100%);
-}
-/* ======================== header ======================== */
-
-#header{
-  width: 100%;
-  height: 100vh;
-  background-image: url(/assets/img/Cy\ Ocean.gif);
-  background-size: cover;
-  background-position: right center;
 }
 
 /* ======================== navigation ======================== */
 
-.container{
+.container {
   padding: 10px 10%;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -38,27 +29,17 @@ nav{
   top: 0%;
 }
 
-.logo{
-  padding-right:10000%;
-  font-size: 300%;
-  width: 140px;
-}
-
-.home{
+.home {
   color: hsl(0, 0%, 100%);
 }
 
-span{
-  color: hsl(300, 94%, 59%);
-}
-
- nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
- }
+}
 
-.navbar{
+.navbar {
   background-color: hsl(0, 0%, 0%);
   position: sticky;
   top: 0;
@@ -67,7 +48,7 @@ span{
   padding-bottom: 10px;
 }
 
-nav ul li a{
+nav ul li a {
   color: hsl(0, 0%, 100%);
   font-weight: bold;
   text-decoration: none;
@@ -75,7 +56,7 @@ nav ul li a{
   position: relative;
 }
 
-nav ul li a::after{
+nav ul li a::after {
   content: '';
   width: 0%;
   height: 3px;
@@ -86,16 +67,16 @@ nav ul li a::after{
   transition: 0.3s;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
   width: 100%;
 }
 
-.header-text{
+.header-text {
   margin-top: 20%;
   font-size: 30px;
 }
 
-.header-text h1{
+.header-text h1 {
   font-size: 60px;
   margin-top: 20px;
 }
@@ -104,27 +85,84 @@ nav ul li a:hover::after{
 
 /* ======================== home ======================== */
 
-.message{
-  font-size: 90px;
+.home {
+  font-size: 250%;
+  width: 140px;
+}
+
+span {
+  font-size: 200%;
+  width: 140px;
+  color: hsl(300, 94%, 59%);
+}
+
+.message {
+  font-size: 400%;
   padding-top: 200px;
   orientation: left;
 }
 
-.typed{
-  font-size: 180%;
+.typed {
+  font-size: 150%;
 }
 
-#typing-text{
+#typing-text {
   color: hsl(181, 100%, 50%)
 }
 
-/* ======================== mobile home ======================== */
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/Cy\ Ocean.gif);
+  background-size: cover;
+  background-position: right center;
+}
 
-.mobile_menu{
+.home {
+  color: hsl(0, 0%, 100%);
+}
+
+/* ======================== home (mobile) ======================== */
+
+.mobile_menu {
   display: block;
   width: 35px;
 }
 
-/* ======================== about ======================== */
+/* ======================== skill menu ======================== */
 
 
+
+/* ======================== skill menu (mobile) ======================== */
+
+
+
+/* ======================== events participation ======================== */
+
+
+
+/* ======================== events participation (mobile) ======================== */
+
+
+
+/* ======================== projects ======================== */
+
+
+
+/* ======================== projects (mobile) ======================== */
+
+
+
+/* ======================== contact ======================== */
+
+
+
+/* ======================== contact (mobile) ======================== */
+
+
+
+/* ======================== footer ======================== */
+
+
+
+/* ======================== footer (mobile) ======================== */
