@@ -81,7 +81,10 @@ nav ul li a:hover::after {
   margin-top: 20px;
 }
 
-
+.mobile_menu {
+  display: block;
+  width: 35px;
+}
 
 /* ======================== home ======================== */
 
@@ -121,10 +124,7 @@ span {
 
 /* ======================== home (mobile) ======================== */
 
-.mobile_menu {
-  display: block;
-  width: 35px;
-}
+
 
 /* ======================== skill menu ======================== */
 
