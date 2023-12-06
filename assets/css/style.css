@@ -85,9 +85,10 @@ nav ul li a:hover::after {
 
 /* ======================== home ======================== */
 
-.home {
+.logo {
   font-size: 250%;
   width: 140px;
+  color: hsl(0, 0%, 100%);
 }
 
 span {
@@ -116,10 +117,6 @@ span {
   background-image: url(/assets/img/Cy\ Ocean.gif);
   background-size: cover;
   background-position: right center;
-}
-
-.home {
-  color: hsl(0, 0%, 100%);
 }
 
 /* ======================== home (mobile) ======================== */
