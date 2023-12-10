@@ -112,7 +112,7 @@ nav ul li a:hover::after {
 span {
   font-size: 200%;
   width: 140px;
-  color: hsl(300, 94%, 59%);
+  color: hsl(181, 100%, 50%);
 }
 
 .message {
@@ -126,7 +126,7 @@ span {
 }
 
 #typing-text {
-  color: hsl(181, 100%, 50%)
+  color: hsl(181, 100%, 50%);
 }
 
 #header {
